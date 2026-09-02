@@ -13,3 +13,10 @@ intern-engineering-foundation/
 │   └── profile.py
 ├── tests/
 └── .gitignore
+
+## Testing
+
+Tests can be executed using:
+
+```bash
+pytest
