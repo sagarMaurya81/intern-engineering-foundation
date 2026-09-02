@@ -24,3 +24,12 @@ def print_profile():
 
 if __name__ == "__main__":
     print_profile()
+
+
+def get_profile():
+    return {
+        "name": intern_name,
+        "role": role,
+        "department": department,
+        "skills": skills
+    }
